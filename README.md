@@ -10,7 +10,7 @@ Loop routes (using circular linked lists)
 
 Real-time negative stations (stations that are temporarily unavailable and must be avoided)
 
-✨ Features
+ Features
 
 Doubly Linked List for Linear Routes
 Allows forward and backward navigation between stations.
@@ -27,7 +27,7 @@ Chooses the shortest valid path (clockwise or counter-clockwise) on loop routes.
 Dynamic Route Updates
 Add or remove stations during runtime.
 
-⚙️ How It Runs
+ How It Runs
 
 Clone or download the repository.
 
@@ -46,7 +46,7 @@ Mark stations as negative and re-plan paths
 
 Show dynamic station edits in action
 
-📌 Sample Output
+ Sample Output
 
 When you run the script, you will see something like this:
 
@@ -56,7 +56,7 @@ A2->A5 restored: ['A2', 'A3', 'A4', 'A5']
 Circular C6->C3: ['C6', 'C1', 'C2', 'C3']
 C6->C3 with C2 NEG: ['C6', 'C5', 'C4', 'C3']
 
-✅ Example Explanation
+ Example Explanation
 
 First route shows a normal path from A2 to A5.
 
